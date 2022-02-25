@@ -1,12 +1,12 @@
 .container{
-    margin-bottom: 88px;
+    margin-bottom: 60px;
 }
 .orange-bg{
     background-color: #fceae8;
     border-radius: 20px;
 }
 .carousel-item{
-    padding: 20px 50px;
+    padding: 40px 50px;
 }
 .price{
     color: #FF136F;
@@ -19,3 +19,179 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+.buy-now-button:hover {
+    background-image: linear-gradient(to bottom, #58ffcd 0%, #0b924f 100%);
+    color: antiquewhite;
+}
+.cat1, .cat2, .cat3{
+    padding: 20px 10px;
+    border-radius: 15px;
+}
+.cat1{
+    background-image: linear-gradient(to bottom, orange 0%, yellow 100%);
+}
+.cat2{
+    background-color: orchid;
+}
+.cat3{
+    background-color: blue;
+}
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 150px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 15px;
+}
+.card-footer{
+    border-top: none;
+    background-color: white;
+}
+#contract{
+    height: 300px;
+}
+footer{
+    text-align: center;
+}
+
+.img1, .img2, .img3, .img4{
+    height:150px;
+    width:100%;
+  }
+  
+  .item{
+    padding-left:5px;
+    padding-right:5px;
+  }
+  .item-card{
+    transition:0.5s;
+    cursor:pointer;
+  }
+  .item-card-title{  
+    font-size:15px;
+    transition:1s;
+    cursor:pointer;
+  }
+  .item-card-title i{  
+    font-size:15px;
+    transition:1s;
+    cursor:pointer;
+    color:#ffa710
+  }
+  .card-title i:hover{
+    transform: scale(1.25) rotate(100deg); 
+    color:#18d4ca;
+    
+  }
+  .card1:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+  }
+  .card-text{
+    height:80px;  
+  }
+  
+  .card1::before, .card1::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scale3d(0, 0, 1);
+    transition: transform .3s ease-out 0s;
+    background: rgba(255, 255, 255, 0.1);
+    content: '';
+    pointer-events: none;
+  }
+  .card1::before {
+    transform-origin: left top;
+  }
+  .card1::after {
+    transform-origin: right bottom;
+  }
+  .card1:hover::before, .card1:hover::after, .card1:focus::before, .card1:focus::after {
+    transform: scale3d(1, 1, 1);
+  }
+  
+  .file{
+    background-color: rgb(239, 239, 239);
+    max-width: 1170px;
+    margin: auto auto;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .file:hover{
+      color: #FF136F;
+  }
+
+
+.test{
+    height: 100%;
+	background-color: #2F2F31;
+	padding: 0;
+	margin: 0;
+	cursor: default;
+    margin-bottom: 60px;
+}
+	
+
+#uc{
+    color: #fff;
+	font-family: Verdana, Geneva, sans-serif;
+	height: 100%;
+	text-align: center;
+	font-size: 4rem;
+	height: 100px;
+	top: 50%;
+	position: relative;
+	margin-top: -50px;
+	text-shadow: 10px 10px 3px rgba(0, 0, 0, 0.5);
+}
+		
+  
+#loading
+{
+     width: 400px;
+    height: 20px;
+    background: rgba(255,255,255,0.7);
+    border: 2px solid rgba(255,255,255,1);
+    border-radius: 50px;
+    margin: 40px auto;
+    box-shadow: inset 2px 2px 5px 0px rgba(0,0,0,0.8);
+}
+#wiggle
+    {
+    width: 80px;
+    height: 18px;
+    border: 1px solid #aaa;
+    background: rgba(255,255,255,0.5);
+    border-radius: 50px;
+    margin-left: 0px;
+    background-color: #ffffff;
+    background-color: -moz-linear-gradient(top,  #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+    background-color: -webkit-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%);
+    background-color: linear-gradient(to bottom,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
+    transition: margin-left 2s;
+    animation: wiggle 5s ease-in-out infinite;
+}
+
+	
+@keyframes wiggle{
+    0%{
+        margin-left: 0px;
+    }
+		
+	50%{
+        margin-left: 318px
+    }
+	100%{
+        margin-left: 0px
+    }
+}
+
+
